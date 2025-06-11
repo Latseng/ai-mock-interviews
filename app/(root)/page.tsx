@@ -26,7 +26,7 @@ export default function Home() {
       </section>
       <section className="flex flex-col gap-6 mt-8">
         <h2>你的面試</h2>
-        <div className="interviws-section">
+        <div className="interviews-section">
           {dummyInterviews.map((interview) => (
             <InterviewCard {...interview} key={interview.id} />
           ))}
